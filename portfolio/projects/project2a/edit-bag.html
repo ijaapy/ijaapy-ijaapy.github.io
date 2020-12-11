@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OptiFit</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700,700italic,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+</head>
+<body>	
+	<header>	
+		<a href="index.html" class="back"><img src="images/icons/arrow-white-back.png" alt="back"></a>
+		<h1><span>Opti</span>Fit</h1>
+	</header>
+	
+	<section class="wrapEdt">
+
+		<input class="name" type="text" placeholder="Naam" value="Tas pakken">
+
+		<textarea class="subitem" placeholder="Omschrijving">
+Tas inpakken
+		</textarea>
+		<article>
+		<span>Begin</span>
+			<input type="time" name="time" value="11:00">
+		</article>
+		<article>
+		<span>Einde</span>
+			<input type="time" name="time" value="11:30">
+		</article>
+		<article>
+		<span>Datum</span>
+			<input class="date" type="date" name="date" value="2015-12-16">
+		</article>
+		<article>
+			<span>Categorie</span>
+			<select>
+				<option value="spullen">Spullen pakken</option>
+				<option value="eten">Eten</option>
+				<option value="Sport">Sport</option>
+				<option value="Uitrusten">Uitrusten</option>
+			</select>
+		</article>
+		<nav class="buttons">
+			<button class="BtnSub"><a href="index.html">Submit</a></button>
+			<button class="BtnDel"><a href="index.html">Delete</a></button>
+		</nav>
+	</section>
+	
+	<footer class="navBtm">
+		<ul>
+			<li><a href="index.html" id="agenda"class="active"><img src="images/icons/footer/agenda.png"class="icon"><br>Agenda</a></li>
+			<li><a href="doping.html" id="doping"><img src="images/icons/footer/doping.png"class="icon"><br>Doping</a></li>
+			<li><a href="" id="info"><img src="images/icons/footer/info.png"class="icon"><br>Info</a></li>
+		</ul>
+	</footer>
+	<script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
